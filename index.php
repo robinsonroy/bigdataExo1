@@ -7,7 +7,7 @@ use function PHPSTORM_META\map;
 
 include 'Map.php';
 
-echo "Welcome in Hadoop TP1 programme<br>";
+echo "Welcome in MapReduce Demonstration<br>";
 
 
 // Input
@@ -113,7 +113,6 @@ function sortShuffle($array){
             $j = 0;
         } while ($j);
     }
-
     //delete element of the list when is egal to delete
     function removeElement($array){
         foreach($array as $subKey => $subArray){
